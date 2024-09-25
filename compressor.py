@@ -1,25 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Jan 10 10:22:16 2021
-
-@author: fox
-"""
-
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Jan  8 17:29:58 2021
-
-@author: Fabian
-
-Compress video to target size
-Resizes and transcodes
-
-This is a CPU intensive process. Need to run on powerful multi-thread instance
-for best results.
-"""
-
 import os
 import ffmpeg
 
