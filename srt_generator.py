@@ -1,18 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Jan  8 09:08:35 2021
-
-@author: Fabian
-
-This script:
-    - ingests videos
-    - transcode them to flac audio
-    - upload them to a GC bucket
-    - generates an srt file with substitles
-    - delete the audio file from GC bucket
-"""
-
 import os
 import srt
 import datetime
